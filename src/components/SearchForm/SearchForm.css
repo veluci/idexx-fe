@@ -1,0 +1,9 @@
+.SearchForm {
+    margin: 20px auto;
+    width: 40%;
+}
+
+.SearchForm div,input,button,p {
+    display: inline-block;
+    margin: 7px;
+}

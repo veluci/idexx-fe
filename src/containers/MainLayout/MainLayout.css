@@ -1,0 +1,15 @@
+.MainLayout {
+    padding: 20px;
+}
+
+.ListStyle {
+  display: inline-block;
+}
+
+.CategoryList {
+  width: 45%;
+  margin: 10px;
+  padding: 3px;
+  vertical-align: top;
+  display: inline-block;
+}
