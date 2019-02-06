@@ -16,7 +16,7 @@ class MainLayout extends React.Component {
         fetch(`https://albums-and-books.herokuapp.com/get?search=${encodeURIComponent(searchParsed)}`, {
             headers: {
                 "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*"
+                "Access-Control-Allow-Origin": "https://albums-and-books-fe.herokuapp.com/"
             },
             method: "GET"
         })
