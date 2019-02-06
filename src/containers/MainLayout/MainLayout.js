@@ -13,10 +13,10 @@ class MainLayout extends React.Component {
     getItemListFromServer = () => {
 
       let searchParsed = this.props.searchKey.split(' ').join('+')
-        fetch(`https://albums-and-books.herokuapp.com/get?search=${encodeURIComponent(searchParsed)}`, {
+        fetch(`http://localhost:8080/get?search=${encodeURIComponent(searchParsed)}`, {
             headers: {
                 "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "https://albums-and-books.herokuapp.com"
+                "Access-Control-Allow-Origin": "http://localhost:8080"
             },
             method: "GET"
         })
