@@ -16,7 +16,7 @@ class MainLayout extends React.Component {
         fetch(`https://limitless-dawn-43571.herokuapp.com/get?search=${encodeURIComponent(searchParsed)}`, {
             headers: {
                 "Content-Type": "application/json",
-                // "Access-Control-Allow-Origin": "https://idexx-fe.herokuapp.com"
+                "Access-Control-Allow-Origin": "*"
             },
             method: "GET"
         })
